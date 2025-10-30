@@ -29,6 +29,16 @@
 
 ---
 
+
+## 🎨 Capturas de Pantalla
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/KevinHdezVaz/PruebaTecnicaRaven/main/assets/img_readme1.png" >
+  <img src="https://raw.githubusercontent.com/KevinHdezVaz/PruebaTecnicaRaven/main/assets/img_readme2.png">
+</p>
+
+
+---
 ## 🏗️ Arquitectura MVVM
 
 ### 📐 Diagrama de Arquitectura
@@ -221,6 +231,7 @@ app/src/test/java/
 - Sin errores ni crashes
 
 ---
+
 
 ## 🔧 Configuración Avanzada
 
