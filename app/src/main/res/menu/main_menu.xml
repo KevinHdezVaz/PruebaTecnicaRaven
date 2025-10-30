@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_search"
+        android:title="Buscar"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_sort"
+        android:title="Ordenar"
+        app:showAsAction="ifRoom">
+        <menu>
+            <!-- Grupo para hacer que funcione como radio buttons -->
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/sort_recent"
+                    android:title="📅 Más recientes"
+                    android:checked="true" />
+                <item
+                    android:id="@+id/sort_oldest"
+                    android:title="📅 Más antiguos" />
+                <item
+                    android:id="@+id/sort_author"
+                    android:title="👤 Por autor (A-Z)" />
+            </group>
+        </menu>
+    </item>
+
+</menu>

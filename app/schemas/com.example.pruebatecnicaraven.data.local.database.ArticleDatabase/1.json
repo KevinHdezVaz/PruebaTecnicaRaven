@@ -1,0 +1,91 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "dcba79f7e0fdfff67f97ced1aceb5eee",
+    "entities": [
+      {
+        "tableName": "articles",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`object_id` TEXT NOT NULL, `title` TEXT, `author` TEXT, `created_at` TEXT, `url` TEXT, `story_title` TEXT, `story_url` TEXT, `timestamp` INTEGER NOT NULL, PRIMARY KEY(`object_id`))",
+        "fields": [
+          {
+            "fieldPath": "objectID",
+            "columnName": "object_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "title",
+            "columnName": "title",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "author",
+            "columnName": "author",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "createdAt",
+            "columnName": "created_at",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "url",
+            "columnName": "url",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "storyTitle",
+            "columnName": "story_title",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "storyUrl",
+            "columnName": "story_url",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "timestamp",
+            "columnName": "timestamp",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "object_id"
+          ]
+        }
+      },
+      {
+        "tableName": "deleted_articles",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`object_id` TEXT NOT NULL, `deleted_at` INTEGER NOT NULL, PRIMARY KEY(`object_id`))",
+        "fields": [
+          {
+            "fieldPath": "objectID",
+            "columnName": "object_id",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "deletedAt",
+            "columnName": "deleted_at",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": false,
+          "columnNames": [
+            "object_id"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, 'dcba79f7e0fdfff67f97ced1aceb5eee')"
+    ]
+  }
+}

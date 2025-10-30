@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - Orange (Hacker News theme) -->
+    <color name="orange_primary">#FF6600</color>
+    <color name="orange_primary_dark">#E55A00</color>
+    <color name="orange_primary_light">#FF8533</color>
+    <color name="orange_secondary">#FF9933</color>
+    <color name="orange_accent">#FFAA55</color>
+    <color name="orange_light">#FFF3E6</color>
+    <color name="orange_subtle">#FFF8F0</color>
+
+    <!-- Secondary Colors -->
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+
+    <!-- Background Colors -->
+    <color name="background_primary">#F6F6EF</color>
+    <color name="background_secondary">#FFFFFF</color>
+    <color name="background_card">#FFFFFF</color>
+    <color name="background_elevated">#FAFAFA</color>
+    <color name="background_overlay">#80000000</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#1A1A1A</color>
+    <color name="text_secondary">#828282</color>
+    <color name="text_tertiary">#454545</color>
+    <color name="text_link">#0066CC</color>
+    <color name="text_link_visited">#551A8B</color>
+    <color name="text_on_primary">#FFFFFF</color>
+    <color name="text_disabled">#BDBDBD</color>
+
+    <!-- Card & UI Elements -->
+    <color name="card_stroke">#F0F0F0</color>
+    <color name="divider">#E6E6E6</color>
+    <color name="divider_color">#EEEEEE</color>
+    <color name="ripple_color">#20FF6600</color>
+    <color name="shadow_color">#1A000000</color>
+
+    <!-- Actions & States -->
+    <color name="delete_background">#F44336</color>
+    <color name="delete_icon">#FFFFFF</color>
+    <color name="archive_background">#2196F3</color>
+    <color name="favorite_color">#FFC107</color>
+    <color name="read_indicator">#9E9E9E</color>
+
+    <!-- Status Colors -->
+    <color name="success">#4CAF50</color>
+    <color name="success_light">#E8F5E9</color>
+    <color name="error">#F44336</color>
+    <color name="error_light">#FFEBEE</color>
+    <color name="warning">#FF9800</color>
+    <color name="warning_light">#FFF3E0</color>
+    <color name="info">#2196F3</color>
+    <color name="info_light">#E3F2FD</color>
+
+    <!-- Skeleton Loading (Shimmer effect) -->
+    <color name="skeleton_base">#E0E0E0</color>
+    <color name="skeleton_highlight">#F5F5F5</color>
+
+    <!-- Standard Material Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+
+    <!-- Dark Mode Support (opcional, para futuro) -->
+    <color name="dark_background">#121212</color>
+    <color name="dark_surface">#1E1E1E</color>
+    <color name="dark_text_primary">#E0E0E0</color>
+    <color name="dark_text_secondary">#B0B0B0</color>
+</resources>
