@@ -1,17 +1,16 @@
-## :memo:Notes
-
-<! -- ADD any notes here -->
-<! -- Example: This is a note -->
+## :memo: Notes
+<!-- Add any notes here -->
+<!-- Example: This is a note -->
 
 
 ## :link: Link to JIRA ticket
+<!-- Please provide a link to the Jira ticket related to this issue -->
+<!-- Example: https://your-company.atlassian.net/browse/PROJ-123 -->
 
-<! -- Please provide a link to the Jira ticket related to this issue. -->
-<! -- Example:  -->
 
 ## :boom: Change type
-<! -- Put an 'x' in the boxes that apply -->
-<! -- Example - [x] New component -->
+<!-- Put an 'x' in the boxes that apply -->
+<!-- Example: - [x] Feature -->
 
 - [ ] Feature
 - [ ] Bugfix
@@ -19,13 +18,14 @@
 - [ ] Documentation
 - [ ] Other
 
+
 ## :accessibility: Accessibility
-<! -- Put an 'x' in the boxes that apply -->
-<! -- Example - [x] Yes -->
+<!-- Indicate whether this change affects accessibility -->
 
 - [ ] YES
 - [ ] NO
 
-## :camera: Evidence    
-<! -- Paste the link to the evidence here like a screenshot -->
-<! -- Example - Evidence(https://www.google.com/) -->
+
+## :camera: Evidence
+<!-- Paste links to screenshots, videos, or other evidence -->
+<!-- Example: https://your-image-link.com -->
