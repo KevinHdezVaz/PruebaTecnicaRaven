@@ -21,3 +21,5 @@ class NetworkHelper @Inject constructor(
                 capabilities.hasTransport(NetworkCapabilities.TRANSPORT_ETHERNET)
     }
 }
+
+//esto es un cambio para el tempalte
